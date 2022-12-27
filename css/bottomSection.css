@@ -1,0 +1,58 @@
+footer {
+  color: black;
+}
+
+footer section div div h3 {
+  color: var(--headings-border-color);
+}
+
+footer section div div ul li a {
+  color: var(--heading-text-color);
+  font-size: 0.8rem;
+}
+
+footer section div div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer section div div hr {
+  border: 1px solid --primary-box-shadow;
+  border-radius: 87px;
+  width: 60%;
+}
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    #f1913e2f,
+    rgba(1, 100, 170, 0.425)
+  );
+  border-radius: 5px 8px 0px 0px;
+  padding: 1rem;
+  gap: 6rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+}
+
+.Resource-information {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.name-logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

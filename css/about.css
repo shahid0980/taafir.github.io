@@ -1,0 +1,34 @@
+.about-choose{
+    gap: 1rem;
+    grid-template-rows: 1fr .6fr;
+    box-shadow: 1px 0px 5px gray;
+}
+
+.choose-card-container{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.choose{
+    align-items: center;
+}
+
+.about-roadMap{
+    background-image: linear-gradient(
+        180deg,
+        #f1913e2f,
+        rgba(1, 100, 170, 0.425)
+      );
+      gap: 1rem;
+      box-shadow: 2px 4px 5px gray;
+    
+}
+
+.about-page{
+    background-image: linear-gradient(
+        180deg,
+        rgba(1, 100, 170, 0.425), 
+        #f1913e2f
+      );
+}

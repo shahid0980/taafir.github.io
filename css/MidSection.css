@@ -1,0 +1,61 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4.5rem;
+}
+
+.mid-buttons {
+  width: 7rem;
+  border: 2px solid var(--headings-border-color);
+  border-radius: 5px;
+  color: var(--heading-text-color);
+  background-color: transparent;
+  padding: 6px;
+  font-family: "Poppins", sans-serif;
+}
+
+.problems-top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 90%;
+}
+
+.main-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: var(--primary-box-shadow);
+  border-radius: 5px;
+  gap: 4rem;
+  background-image: linear-gradient(
+    180deg,
+    rgba(128, 128, 128, 0.041),
+    rgba(128, 128, 128, 0.116)
+  );
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.problems-cards {
+  width: 19rem;
+  height: 11rem;
+  text-align: center;
+  box-shadow: 2px 4px 5px gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+}
